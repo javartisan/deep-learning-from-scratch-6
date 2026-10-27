@@ -1,4 +1,5 @@
 # 'A' の場合
+# 属于**字符串（str）对象的方法**，不是内置函数，作用： **str（Unicode 字符串） → bytes（字节串）**
 encoded = 'A'.encode("utf-8")
 print(encoded)        # b'A'
 print(list(encoded))  # [65]
